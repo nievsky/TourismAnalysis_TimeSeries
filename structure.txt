@@ -1,0 +1,52 @@
+1. Introduction
+   - Что за данные
+   - Почему выбран главный ряд
+   - Какие дополнительные ряды будут использоваться
+
+2. Data preparation
+   - Загрузка данных
+   - Очистка
+   - Преобразование в ts object
+   - Проверка пропусков
+
+3. Graphical analysis
+   - График главного ряда
+   - Первый комментарий: trend, seasonality, outliers
+
+4. Decomposition and smoothing
+   - Classical decomposition / STL
+   - Moving average или exponential smoothing
+   - Интерпретация trend / seasonal / residual
+
+5. Regression model: trend + seasonality
+   - Linear / quadratic trend
+   - Monthly dummies или Fourier terms
+   - Выбор лучшей модели через AIC / residual diagnostics
+
+6. SARIMA model
+   - ACF/PACF
+   - auto.arima + ручная проверка
+   - Остатки
+
+7. Cross-correlation with other series
+   - Проверка зависимостей
+   - Определение lag
+   - Выбор внешних рядов для модели
+
+8. Regression with ARIMA errors
+   - Модель y ~ external variables + ARIMA errors
+   - Диагностика остатков
+
+9. Periodogram
+   - Проверка основной периодичности
+   - Доказательство периода 12 для месячных данных
+
+10. Forecasting
+   - Прогноз 10 будущих наблюдений
+   - Графики с confidence intervals
+   - Сравнение моделей
+
+11. Final comparison and conclusion
+   - Какая модель лучше
+   - Почему
+   - Ограничения анализа
